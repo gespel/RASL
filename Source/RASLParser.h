@@ -7,5 +7,13 @@
 
   ==============================================================================
 */
-
+#include "RASLProcessor.h"
 #pragma once
+
+class RASLParser {
+public:
+    RASLParser(RASLProcessor *proc);
+    
+private:
+    RASLProcessor *p;
+};

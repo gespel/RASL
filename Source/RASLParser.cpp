@@ -9,3 +9,8 @@
 */
 
 #include "RASLParser.h"
+#include <iostream>
+
+RASLParser::RASLParser(RASLProcessor *proc) {
+    p = proc;
+}

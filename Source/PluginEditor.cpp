@@ -43,3 +43,8 @@ void RASLAudioProcessorEditor::resized()
     mainEditor.setBounds(5, 5, 390, 290);
     executeButton.setBounds(5, 300, 100, 20);
 }
+
+void RASLAudioProcessorEditor::buttonClicked(juce::Button* button)
+{
+    std::cout << "bla";
+}
