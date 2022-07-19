@@ -4,6 +4,16 @@
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
   <MAINGROUP id="B1AtoF" name="RASL">
     <GROUP id="{9EAC3274-12B6-BBF3-38FE-71EA599484E7}" name="Source">
+      <GROUP id="{2485B784-2BEE-F413-AAA7-C8C0B2F62C37}" name="RASLCore">
+        <FILE id="J4qMcL" name="RASLAudioProcessor.cpp" compile="1" resource="0"
+              file="Source/RASLAudioProcessor.cpp" xcodeResource="0"/>
+        <FILE id="i8vdoW" name="RASLAudioProcessor.h" compile="0" resource="0"
+              file="Source/RASLAudioProcessor.h" xcodeResource="0"/>
+        <FILE id="L6PcKF" name="RASLParser.cpp" compile="1" resource="0" file="Source/RASLParser.cpp"
+              xcodeResource="0"/>
+        <FILE id="kt2OVY" name="RASLParser.h" compile="0" resource="0" file="Source/RASLParser.h"
+              xcodeResource="0"/>
+      </GROUP>
       <FILE id="M1yTnI" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
       <FILE id="btnEcN" name="PluginProcessor.h" compile="0" resource="0"
