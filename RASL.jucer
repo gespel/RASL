@@ -12,6 +12,8 @@
         <FILE id="WLdbXN" name="RASLProcessor.cpp" compile="1" resource="0"
               file="Source/RASLProcessor.cpp"/>
         <FILE id="Pf3Juz" name="RASLProcessor.h" compile="0" resource="0" file="Source/RASLProcessor.h"/>
+        <FILE id="oatwik" name="SineSynth.cpp" compile="1" resource="0" file="Source/SineSynth.cpp"/>
+        <FILE id="VHwpAn" name="SineSynth.h" compile="0" resource="0" file="Source/SineSynth.h"/>
       </GROUP>
       <FILE id="M1yTnI" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>

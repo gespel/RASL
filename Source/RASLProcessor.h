@@ -9,9 +9,14 @@
 */
 
 #pragma once
+#include <stdlib.h>
+#include <iostream>
+#include "SineSynth.h"
 
 class RASLProcessor {
 public:
     RASLProcessor();
+    void createSineSynth(int channelNumber, int freq);
 private:
+    //std::vector<
 };

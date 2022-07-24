@@ -9,8 +9,15 @@
 */
 
 #include "RASLProcessor.h"
-#include <iostream>
+
+typedef struct sine {
+    SineSynth a;
+    int channelNumber;
+} sine;
 
 RASLProcessor::RASLProcessor() {
     std::cout << "Bla";
+}
+void RASLProcessor::createSineSynth(int channelNumber, int freq) {
+    sine neu = {SineSynth(freq), channelNumber};
 }

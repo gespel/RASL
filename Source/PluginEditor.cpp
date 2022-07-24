@@ -1,11 +1,3 @@
-/*
-  ==============================================================================
-
-    This file contains the basic framework code for a JUCE plugin editor.
-
-  ==============================================================================
-*/
-
 #include "PluginProcessor.h"
 #include "PluginEditor.h"
 
@@ -13,8 +5,6 @@
 RASLAudioProcessorEditor::RASLAudioProcessorEditor (RASLAudioProcessor& p)
     : AudioProcessorEditor (&p), audioProcessor (p)
 {
-    // Make sure that before the constructor has finished, you've set the
-    // editor's size to whatever you need it to be.
     setSize (400, 325);
     mainEditor.setMultiLine(true);
     mainEditor.setReturnKeyStartsNewLine(true);
@@ -30,7 +20,6 @@ RASLAudioProcessorEditor::~RASLAudioProcessorEditor()
 //==============================================================================
 void RASLAudioProcessorEditor::paint (juce::Graphics& g)
 {
-    // (Our component is opaque, so we must completely fill the background with a solid colour)
     g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
 
     g.setColour (juce::Colours::white);
@@ -46,5 +35,5 @@ void RASLAudioProcessorEditor::resized()
 
 void RASLAudioProcessorEditor::buttonClicked(juce::Button* button)
 {
-    std::cout << "bla";
+    parser->parse(mainEditor.getText());
 }
